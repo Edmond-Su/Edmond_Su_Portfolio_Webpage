@@ -75,7 +75,9 @@ h2 {
 }
 
 #projectMain{
-    flex: 0 1 1000;
+    width: 100%;
+    /* flex: 0 1 1000; */
+    margin: 0 auto
 }
 
 #contact {
@@ -93,3 +95,4 @@ h2 {
     padding: 10px 75px;
     text-align: center;
 }
+
