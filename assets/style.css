@@ -127,6 +127,11 @@ h3 {
     text-align: center; /* Setting contact list element text to align centrally  */
 }
 
+#contact a {
+    color: black;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 768px) { /* Checking if device screen width is less then 768px. If it is then it runs the code below */
 
     h1 {
