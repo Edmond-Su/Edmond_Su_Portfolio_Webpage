@@ -1,6 +1,6 @@
 # Edmond_Su_Portfolio_Webpage
 
-## Link : https://deverstater07.github.io/Edmond_Su_Portfolio_Webpage/
+## Link : https://edmond-su.github.io/Edmond_Su_Portfolio_Webpage/
 
 ## Description
 
