@@ -1,130 +1,192 @@
-*{
-    font-family: Arial, Helvetica, sans-serif; /*Set font family for all elements */
-    box-sizing: border-box; /* Set the box size to be the border box of all elements*/
+* {
+    /*Set font family for all elements */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Set the box size to be the border box of all elements*/
+    box-sizing: border-box;
 }
 
 
 body {
-    margin: 0; /*Set body element margin to 0 */
-    padding: 0; /*Set body element padding to 0 */
+    /*Set body element margin to 0 */
+    margin: 0;
+    /*Set body element padding to 0 */
+    padding: 0;
 }
-main{
-    width: 100%; /* Set width of main element to 100% screem width*/
+
+main {
+    /* Set width of main element to 100% screem width*/
+    width: 100%;
 }
+
 header {
-    padding: 0.5% 2%; /* Added padding to header element */
-    width: 75%; /*set width of header to 75% of screen width*/
-    max-width: 1500px; /* Set maximum header width to 1500px*/
-    margin: auto; /*Set margin to auto to centre header element */
+    /* Added padding to header element */
+    padding: 0.5% 2%;
+    /*set width of header to 75% of screen width*/
+    width: 75%;
+    /* Set maximum header width to 1500px*/
+    max-width: 1500px;
+    /*Set margin to auto to centre header element */
+    margin: auto;
 }
 
 h1 {
-    display: inline-block; /*Set header to display inline with other elements*/
-    font-size: 40px; /*Set header 1 font size to 40px*/
+    /*Set header to display inline with other elements*/
+    display: inline-block;
+    /*Set header 1 font size to 40px*/
+    font-size: 40px;
 }
 
 nav {
-    margin: 25px 20px; /* Set margins for navigation element */
-    float: right; /*Setting the nav element to float on the right side */
+    /* Set margins for navigation element */
+    margin: 25px 20px;
+    /*Setting the nav element to float on the right side */
+    float: right;
 }
 
 nav ul {
-    list-style-type: none; /* Setting the list to have no style type */
+    /* Setting the list to have no style type */
+    list-style-type: none;
 }
 
 nav li {
-    display: inline-block; /*Setting the list element to display inline with other elements */
-    margin-left: 25px; /*Added a 25px margin to the left of each list element */
+    /*Setting the list element to display inline with other elements */
+    display: inline-block;
+    /*Added a 25px margin to the left of each list element */
+    margin-left: 25px;
 }
 
 .navButtons {
     color: black;
-    text-decoration: none; /* Removing all text decoration on the anchor text */
-    font-size: 20px;/*Set font size of nav button text to 20px*/
+    /* Removing all text decoration on the anchor text */
+    text-decoration: none;
+    /*Set font size of nav button text to 20px*/
+    font-size: 20px;
 }
 
 h2 {
-    text-align: center; /* Set header 2 text to align centrally*/
-    font-size: 35px;/*Set header 2 font size to 35px*/
+    /* Set header 2 text to align centrally*/
+    text-align: center;
+    /*Set header 2 font size to 35px*/
+    font-size: 35px;
+
 }
 
 #about {
-    padding: 2%; /* Set padding for about element*/
-    margin-bottom: 0.5%; /* Adds a margin to the bottom of the element */
+    /* Set padding for about element*/
+    padding: 2%;
+    /* Adds a margin to the bottom of the element */
+    margin-bottom: 0.5%;
 }
 
 #about p {
-    font-size: 18px;/*Set about p element text font size to 18px */
-    margin-right: 100px; /* Set a 100px margin to the right of the about p element*/
+    /*Set about p element text font size to 18px */
+    font-size: 18px;
+    /* Set a 100px margin to the right of the about p element*/
+    margin-right: 100px;
 }
 
 #avatar {
-    object-fit: cover; /* Setting image to scale down to fit element size */
-    width: 200px; /* Setting image element height*/
-    height: 200px; /* Setting image element width */
-    float: left; /* Setting avatar element to float left*/
-    margin-left: 100px; /* Setting 100px margin to left of avatar element*/
-    margin-right: 50px; /* Setting 50px margin to right of avatar element*/
+    /* Setting image to scale down to fit element size */
+    object-fit: cover;
+    /* Setting image element height*/
+    width: 200px;
+    /* Setting image element width */
+    height: 200px;
+    /* Setting avatar element to float left*/
+    float: left;
+    /* Setting 100px margin to left of avatar element*/
+    margin-left: 100px;
+    /* Setting 50px margin to right of avatar element*/
+    margin-right: 50px;
 }
 
 #projects {
-    padding: 5%; /* Setting 50px padding around projects element */
+    /* Setting 50px padding around projects element */
+    padding: 5%;
 }
 
 h3 {
-    font-size: 25px; /* Setting header 3 font size to 25px */
+    /* Setting header 3 font size to 25px */
+    font-size: 25px;
 }
 
 #projectCards {
-    padding: 20px; /* Setting a 20px padding around projectCards element */
-    display: flex; /* Setting projectCards element to display as a flex element */
-    flex-direction: row; /* Setting flex direction to rows */
-    flex-wrap: wrap; /* Allowing projectCards to wrap across multiple lines */
-    justify-content: space-evenly; /* Setting projectCards to be spaced evenly */
+    /* Setting a 20px padding around projectCards element */
+    padding: 20px;
+    /* Setting projectCards element to display as a flex element */
+    display: flex;
+    /* Setting flex direction to rows */
+    flex-direction: row;
+    /* Allowing projectCards to wrap across multiple lines */
+    flex-wrap: wrap;
+    /* Setting projectCards to be spaced evenly */
+    justify-content: space-evenly;
 }
 
-#projectMain{
-    width: 100%; /* Setting projectMain element width to 100% of screen width */
-    margin: 0 auto; /* Setting margin to auto */
-    display: flex; /* Setting projectMain element to display as flex element */
-    flex-direction: column; /* Setting flex direction to columns */
-    align-items: center; /* Setting projectMain element to align centrally */
+#projectMain {
+    /* Setting projectMain element width to 100% of screen width */
+    width: 100%;
+    /* Setting margin to auto */
+    margin: 0 auto;
+    /* Setting projectMain element to display as flex element */
+    display: flex;
+    /* Setting flex direction to columns */
+    flex-direction: column;
+    /* Setting projectMain element to align centrally */
+    align-items: center;
 }
 
-#projectMain a img{
-    object-fit: contain; /* Setting image to scale down to fit element size */
-    width: 600px; /* Setting image element height*/
-    height: 600px; /* Setting image element width */
-    
+#projectMain a img {
+    /* Setting image to scale down to fit element size */
+    object-fit: contain;
+    /* Setting image element height*/
+    width: 600px;
+    /* Setting image element width */
+    height: 600px;
 }
 
-.projectCard{
-    margin: 0 auto; /* Setting margin to auto */
-    display: flex; /* Setting projectCard element to display as flex element */
-    flex-direction: column; /* Setting flex direction to columns */
-    align-items: center; /* Setting projectCard element to align centrally */
+.projectCard {
+    /* Setting margin to auto */
+    margin: 0 auto;
+    /* Setting projectCard element to display as flex element */
+    display: flex;
+    /* Setting flex direction to columns */
+    flex-direction: column;
+    /* Setting projectCard element to align centrally */
+    align-items: center;
+
 }
 
-.projectCard a img{
-    object-fit: contain; /* Setting image to scale down to fit element size */
-    width: 400px; /* Setting image element height*/
-    height: 400px; /* Setting image element width */
+.projectCard a img {
+    /* Setting image to scale down to fit element size */
+    object-fit: contain;
+    /* Setting image element height*/
+    width: 400px;
+    /* Setting image element width */
+    height: 400px;
 }
 
 #contact {
-    padding: 1%; /* Setting a 1% padding around contact element */
+    /* Setting a 1% padding around contact element */
+    padding: 1%;
 }
 
 #contact ul {
-    display: flex; /* Setting contact ul element to display as flex element */
-    flex-wrap: wrap; /* Allowing contact ul element to wrap across multiple lines */
-    justify-content: center; /* Setting contact ul element to align centrally */
-    list-style-type: none; /* Setting list type to none */
+    /* Setting contact ul element to display as flex element */
+    display: flex;
+    /* Allowing contact ul element to wrap across multiple lines */
+    flex-wrap: wrap;
+    /* Setting contact ul element to align centrally */
+    justify-content: center;
+    /* Setting list type to none */
+    list-style-type: none;
 }
 
 #contact li {
-    padding: 10px 75px; /* Setting a padding around each contact list element */
-    text-align: center; /* Setting contact list element text to align centrally  */
+    /* Setting a padding around each contact list element */
+    padding: 10px 75px;
+    /* Setting contact list element text to align centrally  */
+    text-align: center;
 }
 
 #contact a {
@@ -132,54 +194,77 @@ h3 {
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px) { /* Checking if device screen width is less then 768px. If it is then it runs the code below */
+/* Checking if device screen width is less then 768px. If it is then it runs the code below */
+@media screen and (max-width: 768px) {
+
 
     h1 {
-        display: flex; /* Set header 1 element to display as flex element*/
-        justify-content: center; /* Setting header to centre along main axis */
+        /* Set header 1 element to display as flex element*/
+        display: flex;
+        /* Setting header to centre along main axis */
+        justify-content: center;
     }
 
     nav {
-        float: none; /* Removing float setting */
-        display: flex; /* Set nav element to display as flex element */
-        margin: auto; /* Setting nav element margin to auto*/
-        flex-direction: column; /* Setting flex direction to stack in a column*/
+        /* Removing float setting */
+        float: none;
+        /* Set nav element to display as flex element */
+        display: flex;
+        /* Setting nav element margin to auto*/
+        margin: auto;
+        /* Setting flex direction to stack in a column*/
+        flex-direction: column;
     }
 
     nav li {
-        display: flex; /* Setting nav list elements to display as flex elements*/
-        justify-content: center; /* Setting nav list elements to centre along main axis */
-        margin: 0; /* Setting margin for nav list elements to 0 */
+        /* Setting nav list elements to display as flex elements*/
+        display: flex;
+        /* Setting nav list elements to centre along main axis */
+        justify-content: center;
+        /* Setting margin for nav list elements to 0 */
+        margin: 0;
     }
 
     #avatar {
-        margin: 2% 5% 2% 0; /* Setting margins for avatar element 2% on top, 5% on right side, 2% on the bottom and none on the left */
+        /* Setting margins for avatar element 2% on top, 5% on right side, 2% on the bottom and none on the left */
+        margin: 2% 5% 2% 0;
+
     }
 
     #about {
-        padding: 0 10%; /* Setting padding around the about element. None along top and bottom, 10% along the left and right*/
-        margin: auto; /* Setting about element margin to auto */
+        /* Setting padding around the about element. None along top and bottom, 10% along the left and right*/
+        padding: 0 10%;
+        /* Setting about element margin to auto */
+        margin: auto;
     }
 
     #about p {
-        margin: auto; /* Setting about p element margin to auto */
+        /* Setting about p element margin to auto */
+        margin: auto;
     }
 
-    #projectMain a img{
-        width: 500px; /* Changing main project image size */
-    } 
+    #projectMain a img {
+        /* Changing main project image size */
+        width: 500px;
 
-    #projectCards{
-        padding: 0; /* Removing padding on projectCards element*/
     }
 
-    .projectCard{
-        flex-direction: column; /* Changing projectCards element flex direction to columns */
-        justify-content: center; /* Setting projectCard element to align centrally */
+    #projectCards {
+        /* Removing padding on projectCards element*/
+        padding: 0;
+
+    }
+
+    .projectCard {
+        /* Changing projectCards element flex direction to columns */
+        flex-direction: column;
+        /* Setting projectCard element to align centrally */
+        justify-content: center;
     }
 
     #contact ul {
-        flex-direction: column; /* Changing flex direction to columns */
+        /* Changing flex direction to columns */
+        flex-direction: column;
+
     }
-  }
-  
+}
